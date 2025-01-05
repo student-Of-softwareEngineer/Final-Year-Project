@@ -26,7 +26,7 @@ function Home() {
           {/* Text Section */}
           <div className="md:col-span-3 text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              Find Trusted Professionals Near You in Just a Click!
+              Find Trusted Professionals Near You in Just a Click! Hello From me
             </h1>
             <p className="text-lg text-gray-600 mb-6">
               Find high-quality talent or open jobs with the help of a website
