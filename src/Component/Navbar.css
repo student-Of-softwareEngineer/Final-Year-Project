@@ -1,0 +1,71 @@
+.custom-search-bar {
+  border: 1px solid #ccc;
+  border-radius: 25px; /* Smooth rounded corners */
+  overflow: hidden;
+  width: 300px;
+}
+
+.custom-search-bar .input-group-text {
+  background-color: white;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  align-items: center;
+  /* width: 400px; */
+}
+
+.custom-search-bar .input-group-text:first-child {
+  border-right: 1px solid #ccc;
+}
+
+.custom-search-bar .dropdown-toggle {
+  border-left: 1px solid #ccc;
+  color: black;
+  cursor: pointer;
+}
+
+.custom-search-bar .form-control {
+  border: none;
+  box-shadow: none;
+  font-size: 1rem;
+}
+
+.custom-search-bar .form-control::placeholder {
+  color: #aaa;
+}
+
+.custom-search-bar .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-search-bar:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.logo-name {
+  position: relative;
+  left: -16px;
+  top: 3px;
+  font-weight: bolder;
+}
+/* Navbar.css */
+.navbar-border-bottom {
+  border-bottom: 1px solid #dee2e6; /* Light gray border */
+}
+/* Navbar.css */
+
+/* Hover effect for li elements */
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: #110cec; /* Sky blue background */
+  color: white; /* White text */
+  border-radius: 5px; /* Optional: add some rounding to the corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+
+
